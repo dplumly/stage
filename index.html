@@ -45,11 +45,19 @@
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
 		  	<!-- Overlay content -->
-		  	<ul>
+		  	<ul id="iPhone">
+		  		<h2>iPhone</h2>
 			    <li><a class="model" href="img/downloads/PAPERPROTO-5.zip">iPhone 5</a></li>
-			    <li><a class="model" href="img/downloads/PAPERPROTO-6.zip">iPhone 6</a></li>
-			    <li><a class="model" href="img/downloads/PAPERPROTO-6-PLUS.zip">iPhone 6 PLUS</a></li>
+			    <li><a class="model" href="img/downloads/PAPERPROTO-6.zip">iPhone 6s</a></li>
+			    <li><a class="model" href="img/downloads/PAPERPROTO-6-PLUS.zip">iPhone 6 Plus</a></li>
+			    <li><a class="model" href="img/downloads/PAPERPROTO-8.zip">iPhone 8</a></li>
+		    </ul>
+
+		    <ul id="android">
+		    	<h2>Android</h2>
 			    <li><a class="model" href="img/downloads/PAPERPROTO-Galaxy-S6.zip">Galaxy S6</a></li>
+			    <li><a class="model" href="img/downloads/PAPERPROTO-Galaxy-S8.zip">Galaxy S8</a></li>
+			    <li><a class="model" href="img/downloads/PAPERPROTO-Galaxy-Note8.zip">Galaxy Note8</a></li>
 		    </ul>
 		</div>
 	</div>
@@ -87,17 +95,16 @@
         			Paper prototyping is a efficient way to quickly express your vision in a way that is in perspective to real use while. Inspired by the <a href="https://dribbble.com/shots/974256-ironPhone-custom-made-sketch-preview-tool" target="_blank">IronPhone</a> we thought there was surely a 3D printable model to use for paper prototyping, but there was none. <strong> So, we made it. </strong> The .ZIP file contains the .STL and .PDF so you can get started mocking up awesome mobile experiences.
         		</p>
     		</section>
-        </div><!-- end landingContent -->
 
-
-    	<section class="buttons">
-    		<span class="buttonDefinitions" onclick="openNav()">DOWNLOAD</span>
+    		<section class="buttons">
+    			<span class="buttonDefinitions" onclick="openNav()">DOWNLOAD</span>
     			<div></div>
 				<div></div>
 				<div></div>
 
-			<a id="buyButton" href="http://www.shapeways.com/shops/paperproto" target="_blank"><button>BUY</button></a>
-		</section>
+				<a id="buyButton" href="http://www.shapeways.com/shops/paperproto" target="_blank"><button>BUY</button></a>
+			</section>
+        </div><!-- end landingContent -->	
 	</div><!-- end landing -->
 
 
@@ -288,9 +295,12 @@
 		<script type="text/javascript">
 			function openNav() {
     			document.getElementById("paperprotoChoice").style.width = "100%";
+    			document.getElementById("paperprotoChoice").style.opacity = "1";
 			}	
 			function closeNav() {
 			  	document.getElementById("paperprotoChoice").style.width = "0%";
+
+			  	document.getElementById("paperprotoChoice").style.opacity = ".1";
 			}
 		</script>
 
