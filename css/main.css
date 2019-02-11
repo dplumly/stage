@@ -127,8 +127,18 @@ user info
     margin: 0 20px 20px 20px;
 }
 
-.date {
+.date, .more {
     color: #bebebe;
+}
+
+.twitter-handle {
+    color: #a9babd;
+}
+
+.comments {
+    color: #bebebe;
+    font-weight: 100;
+    font-size: 13px;
 }
 
 /*==========================================
