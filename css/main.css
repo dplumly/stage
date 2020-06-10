@@ -422,14 +422,6 @@ Landing Page Thumbnails
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
 #thumbnails.row .twelve.columns h2 {
     position: absolute;
     top: 100px;
@@ -483,9 +475,6 @@ Landing Page Thumbnails
     opacity: .3;
     cursor: pointer;
 }
-
-
-
 
 /*===================================
 
@@ -1034,20 +1023,20 @@ footer ul li a#github::after { content: "github"; }
 footer ul li a#linkedin::after { content: "linkedin"; }
 footer ul li a#resume::after { content: "resume"; }
 footer ul li a#email::after { content: "email"; }
-footer ul li a svg path.social,
-footer ul li a svg rect.social,
-footer ul li a svg ellipse.social,
-footer ul li a svg text.st0.st1.st2 {
+footer ul li a svg path,
+footer ul li a svg rect,
+footer ul li a svg ellipse
+ {
     -webkit-transition: .3s ease-in-out;
     -moz-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out; 
 }
 
-footer ul li a svg:hover path.social,
-footer ul li a svg:hover rect.social,  
-footer ul li a svg:hover ellipse.social,
-footer ul li a svg:hover text.st0.st1.st2
+
+footer ul li a svg:hover path,
+footer ul li a svg:hover rect,  
+footer ul li a svg:hover ellipse
  { fill: #61e3d3; }
 
 footer p {
