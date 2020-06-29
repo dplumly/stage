@@ -1107,15 +1107,18 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
 
 /* 2001 */
 @media only screen and (min-width: 125.063em) {
-    #landing { background: url('../img/backgrounds/large/landing_big.jpg') no-repeat center center; }
-    #chingon-pong-landing { background: url('../img/backgrounds/large/chingon-pong-bg.jpg') right center no-repeat; }
-    #origami-landing { background: url('../img/backgrounds/large/origami_big.jpg') left center no-repeat;}
-    #visceral_reality-landing  { background: url('../img/backgrounds/large/visceral_reality_big.jpg') no-repeat center center; }
-    #LC_soundbooth-landing  { background: url('../img/backgrounds/large/LC_soundbooth_big.jpg') no-repeat center center; }
-    #litIS-landing  { background: url('../img/backgrounds/large/litIS_big.jpg') no-repeat center center; }
-    #the-huddles-landing { background: url('../img/backgrounds/large/huddles_big.jpg') no-repeat center center; }
-    #paperproto-landing { background: url('../img/backgrounds/large/paperproto_big.jpg') no-repeat center center; }
-    #dustins-words-landing  { background: url('../img/backgrounds/large/dustins-words_big.jpg') no-repeat center center; }
+    #landing { background: url('../img/backgrounds/large/landingbig.jpg') no-repeat center center; }
+    #chingon-pong-landing { background: url('../img/backgrounds/large/chingon-pong-big.jpg') right center no-repeat; }
+    #visceral_reality-landing  { background: url('../img/backgrounds/large/visceral-reality-big.jpg') no-repeat center center; }
+    #LC_soundbooth-landing  { background: url('../img/backgrounds/large/LC-soundbooth-big.jpg') no-repeat center center; }
+    #litIS-landing  { background: url('../img/backgrounds/large/litIS-big.jpg') no-repeat center center; }
+    #the-huddles-landing { background: url('../img/backgrounds/large/huddles-big.jpg') no-repeat center center; }
+    #paperproto-landing { background: url('../img/backgrounds/large/paperproto-big.jpg') no-repeat center center; }
+    #dustins-words-landing  { background: url('../img/backgrounds/large/dustins-words-big.jpg') no-repeat center center; }
+
+
+     #dactivations-landing  { background: url('../img/backgrounds/large/activations-big.jpg') no-repeat center center; }
+
     #color { left: 19%; }
 }
 
@@ -1128,23 +1131,14 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
 /* 1000 */
 @media only screen and (max-width: 62.500em) {
     .project-landing h1 { padding: 50px 20px 0 20px;}
-
-
-
     #description { padding: 0 10px; }
     #about h2 { padding: 20px 0 0 0; }
     #about div  { margin: 0 20px; }
     .left-info { margin-right: 20px; float: right; }
     .project-container h2, .project-container h4 { padding: 20px; }
-
-
     .project-container .row, .left-info { padding: 20px; }
     .center-activation-text { margin: 20px 0;}
     .quantum-section { background: url('../img/page-img/ibm-digital-activations/quantum-machine-med.jpg') center center no-repeat; }
-
-
-
-    
     .header-copy h4 {margin-top: 20px}
     .project-container hr { margin: 10px 20px 35px 20px; }
 }
@@ -1197,7 +1191,6 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     footer ul li#resume { display: none; }
 }
 
-
 /* 600 */
 @media only screen and (max-width: 37.500em) {
     #color { width: 45%; left: 0; transform: skewX(15deg); }
@@ -1206,16 +1199,12 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     #landing li:nth-child(2) { margin-left: 13px; }
     #landing li:nth-child(3) { margin-left: 25px; }
     #landing li:nth-child(4) { margin-left: 38px; }
-    #paperproto-site-bg { background: url('../img/page-img/paperproto/paperproto-bgMobile.jpg') fixed center no-repeat; }
+    /*#paperproto-site-bg { background: url('../img/page-img/paperproto/paperproto-bgMobile.jpg') fixed center no-repeat; }
     #dw-site-bg { background: url('../img/page-img/dustins-words/dw-bgMobile.jpg') fixed center no-repeat; }
     #huddle-site-bg { background: url('../img/page-img/huddles/huddles-bgMobile.jpg') fixed center no-repeat; position: relative; }
-    #soundbooth-site-bg { background: url('../img/page-img/soundbooth/sound-waveMobile.jpg') fixed center no-repeat; }
+    #soundbooth-site-bg { background: url('../img/page-img/soundbooth/sound-waveMobile.jpg') fixed center no-repeat; }*/
     footer ul li { display: -webkit-inline-box; margin: 5px; font-size: 14px; }
     .center-activation-text h4 { height: auto; }
-
-
-
-
     .visit-experience a, .more-projects-doubled a,  .more-projects-single a, .more-projects-ibm-link a { padding: 15px 60px;   width: 100%; text-align: center;  }
 }
 
