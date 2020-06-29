@@ -1099,7 +1099,7 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
 
 /* 2001 */
 @media only screen and (min-width: 125.063em) {
-    #landing { background: url('../img/backgrounds/large/landingbig.jpg') no-repeat center center; }
+    #landing { background: url('../img/backgrounds/large/landing-big.jpg') no-repeat center center; }
     #chingon-pong-landing { background: url('../img/backgrounds/large/chingon-pong-big.jpg') right center no-repeat; }
     #visceral_reality-landing  { background: url('../img/backgrounds/large/visceral-reality-big.jpg') no-repeat center center; }
     #LC_soundbooth-landing  { background: url('../img/backgrounds/large/LC-soundbooth-big.jpg') no-repeat center center; }
