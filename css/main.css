@@ -197,7 +197,6 @@ Landing Page
 #landing {
     position: relative;
 	min-height: 600px;
-    height: 50%;
     width: 100%;
     background: url('../img/backgrounds/landing.jpg') no-repeat right center;
     background-color: #262626;
