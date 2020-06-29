@@ -738,7 +738,6 @@ IBM 2020 Activations Page
     position: relative;
     background: url('../img/backgrounds/activations-landing.jpg') left center no-repeat;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -802,7 +801,6 @@ Chingon Pong Page
     position: relative;
     background: url('../img/backgrounds/chingon-pong.jpg') right center no-repeat;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -833,7 +831,6 @@ Visceral Velocity Page
     position: relative;
     background: url('../img/backgrounds/visceral_reality.jpg') left center no-repeat;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -858,7 +855,6 @@ LC 500 Soundbooth Page
     position: relative;
     background: url('../img/backgrounds/LC_soundbooth.jpg') center center no-repeat;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -888,7 +884,6 @@ Lit IS
     position: relative;
     background: url('../img/backgrounds/litIS.jpg') no-repeat center center;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -912,7 +907,6 @@ The Huddles Page
     position: relative;
     background: url('../img/backgrounds/huddles.jpg') no-repeat center left;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -958,7 +952,6 @@ paperproto
     position: relative;
     background: url('../img/backgrounds/paperproto.jpg') no-repeat center center;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -1003,7 +996,6 @@ Dustin's Words
     position: relative;
     background: url('../img/backgrounds/dustins-words.jpg') no-repeat center center;
     min-height: 600px;
-    height: 50%;
     width: 100%;
     background-color: #262626;
 }
@@ -1117,8 +1109,7 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     #dustins-words-landing  { background: url('../img/backgrounds/large/dustins-words-big.jpg') no-repeat center center; }
 
 
-     #dactivations-landing  { background: url('../img/backgrounds/large/activations-big.jpg') no-repeat center center; }
-
+    #activations-landing  { background: url('../img/backgrounds/large/activations-big.jpg') no-repeat center center; }
     #color { left: 19%; }
 }
 
