@@ -50,6 +50,8 @@
 					<div class="submit-container">
 						<input class="form-button" type="submit" value="Send">
 					</div>
+					<p id="my-form-status"></p>
+
 				</form>
 			</div>
 		</div>
@@ -64,23 +66,68 @@
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="js/contact-form.js"></script>
 
-
 	<script>
+		window.addEventListener("DOMContentLoaded", function () {
+
+			// get the form elements defined in your form HTML above
+
+			var form = document.getElementById("form-trigger");
+			var button = document.getElementById("submit-container");
+			var status = document.getElementById("my-form-status");
+
+			// Success and Error functions for after the form is submitted
+
+			function success() {
+				form.reset();
+				button.style = "display: none ";
+				status.innerHTML = "Thanks!";
+			}
+
+			function error() {
+				status.innerHTML = "Oops! There was a problem.";
+			}
+
+			// handle the form submission event
+
+			form.addEventListener("submit", function (ev) {
+				ev.preventDefault();
+				var data = new FormData(form);
+				ajax(form.method, form.action, data, success, error);
+			});
+		});
+
+		// helper function for sending an AJAX request
+
+		function ajax(method, url, data, success, error) {
+			var xhr = new XMLHttpRequest();
+			xhr.open(method, url);
+			xhr.setRequestHeader("Accept", "application/json");
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState !== XMLHttpRequest.DONE) return;
+				if (xhr.status === 200) {
+					success(xhr.response, xhr.responseType);
+				} else {
+					error(xhr.status, xhr.response, xhr.responseType);
+				}
+			};
+			xhr.send(data);
+		}
+	</script>
+	<!--<script>
 		var message = " ";
 		$(".form-button").on("click", function () {
-			//message = $("#form-trigger").serialize();
+			message = $("#form-trigger").serialize();
 			$.ajax({
 				url: "//formspree.io/mqkywppn",
 				method: "POST",
-				data = $("#form-trigger").serialize();
-
-				//data: { message: message },
+				//data = $("#form-trigger").serialize();
+				data: { message: message },
 				dataType: "json"
 			});
 			alert('Thanks for the reaching out!.');
 			return false;
 		});
-	</script>
+	</script>-->
 
 
 </body>
