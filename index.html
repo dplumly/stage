@@ -50,8 +50,6 @@
 					<div class="submit-container">
 						<input class="form-button" type="submit" value="Send">
 					</div>
-					<p id="my-form-status"></p>
-
 				</form>
 			</div>
 		</div>
@@ -73,7 +71,7 @@
 
 			var form = document.getElementById("form-trigger");
 			var button = document.getElementById("submit-container");
-			var status = document.getElementById("my-form-status");
+			var status = document.getElementsByClassName("form-title");
 
 			// Success and Error functions for after the form is submitted
 
@@ -88,7 +86,6 @@
 			}
 
 			// handle the form submission event
-
 			form.addEventListener("submit", function (ev) {
 				ev.preventDefault();
 				var data = new FormData(form);
@@ -97,7 +94,6 @@
 		});
 
 		// helper function for sending an AJAX request
-
 		function ajax(method, url, data, success, error) {
 			var xhr = new XMLHttpRequest();
 			xhr.open(method, url);
