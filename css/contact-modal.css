@@ -55,8 +55,8 @@
 
 .close {
     font-size: 3em;
-    right: 40px;
-    top: 40px;
+    right: 25px;
+    top: 10px;
     position: absolute;
 }
 .close:hover,
@@ -211,10 +211,12 @@ textarea:-ms-input-placeholder { color: #999999; }
 /*------------------------------------------------------------------
 [ Responsive ]*/
 @media (max-width: 576px) {
-  .wrap-contact-form {
-    padding: 72px 15px 90px 15px;
-  }
+  .form-container { padding-top: 70px;}
+  .wrap-contact-form { padding: 72px 15px 90px 15px; }
+  .submit-container input { padding: 15px 100px; }
+  .form-card { padding: 72px 55px 40px 55px; }
 }
+
 
 /*------------------------------------------------------------------*/
 .validate-input { position: relative; }

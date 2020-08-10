@@ -76,6 +76,8 @@ let thanksModal = document.getElementById("thank-you-modal");
 let contactModalTrigger = document.getElementById("menu-contact");
 let contactModalTrigger1 = document.getElementById("nav-contact");
 let contactModalTrigger2 = document.getElementById("email");
+let contactModalTrigger3 = document.getElementById("mobile-nav-contact");
+
 
 // Get the <span> element that closes the modal
 let closeContactModal = document.getElementsByClassName("closeContactModal")[0];
@@ -90,6 +92,9 @@ contactModalTrigger1.onclick = function () {
     contactModal.style.display = "block";
 }
 contactModalTrigger2.onclick = function () {
+    contactModal.style.display = "block";
+}
+contactModalTrigger3.onclick = function () {
     contactModal.style.display = "block";
 }
 
