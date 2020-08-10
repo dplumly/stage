@@ -944,13 +944,13 @@ IBM 2020 Activations Page
 }
 
 .computer-in-front {z-index: 1;}
-.computer-in-front img {position: absolute;right: 0;}
+.computer-in-front img {position: absolute; right: 0;}
 
 .center-activation-text h4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 250px;
+  height: 400px;
   color: #f3f3f3;
 }
 
