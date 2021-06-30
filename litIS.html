@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/modernizr-minified.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body>
@@ -286,9 +287,10 @@
 			</div>
 
 			<div class="left-content">
-				<div class="row>">
+				<div class="row">
 					<div class="columns six">
-						<img class="left-img" src="img/projects/LitIS/results/lit-model.png" alt="3D model photo">
+						<img id="lit-is-model" class="left-img" src="img/projects/LitIS/results/lit-model.png"
+							alt="3D model photo">
 					</div>
 
 					<div class="left-info columns six">
@@ -469,7 +471,7 @@
 					<textarea class="input" name="message"></textarea>
 					<span class="focus-input" data-placeholder="MESSAGE"></span>
 				</div>
-
+				<div class="g-recaptcha" data-sitekey="6Lf358QZAAAAAKFwfdDHJyRCvqVcm25L_WzwTGLn"></div>
 				<div class="submit-container">
 					<input class="form-button" type="submit" value="Send">
 				</div>

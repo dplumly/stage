@@ -22,24 +22,9 @@ h4 { font-size: 1.0rem;   /* 16px */
 }
 h5 { font-size: .9rem;    /* 12px */}
 h6 { font-size: .625rem;  /* 10px */}
-p  { font-size: .5rem;    /* 8px  */}
-
-
-/* .project-container, .gallery, .video-container, .project-files {
-    padding-top: 70px;
-} */
-
-/* .green-highlight {
-    color: #61e3d3;
-    font-family: 'LatoWebMedium', sans-serif;
-} */
 
 /*--Slide Menu
 ==============================================================================================*/
-/* #push-nav:hover {
-    right: 0px;
-    top: 46px;
-} */
 #push-nav-container {
     /* margin-left: 20px; */
 }
@@ -122,7 +107,7 @@ p  { font-size: .5rem;    /* 8px  */}
     transition: all 0.2s ease; 
 }
 /* .cbp-spmenu-vertical a:hover { color: #61e3d3; } */
-.cbp-spmenu-right { right: -350px; top: 46px; }
+.cbp-spmenu-right { right: -710px; top: 46px; }
 .cbp-spmenu-right.cbp-spmenu-open { right: 0px; top: 46px; z-index: 4; }
 .cbp-spmenu a { display: block; font-size: 18px; }
 .cbp-spmenu {
@@ -143,36 +128,8 @@ nav {
     z-index: 5;
     width: 100%;
 }
-/* nav a {
-    color: #f3f3f3;
-    margin: 4px auto;
-    display: table;
-    font-variant: small-caps;
-    letter-spacing: 3px;
-    font-family: 'LatoWebLight';
-    font-size: 1.3em;
-} */
 
-nav, nav ul, nav ul li {
-    height: 49px;
-}
-/* nav button {
-    width: 100%;
-    height: 39px;
-    background: transparent;
-    outline: none;
-    border: none;
-    color: #f3f3f3;
-    font-variant: small-caps;
-    letter-spacing: 3px;
-    font-family: 'LatoWebLight';
-    padding: 0px;
-    font-size: 1.3em;
-    -webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	transition: all 0.2s;
-} */
-
+nav, nav ul, nav ul li { height: 49px; }
 nav li { 
     padding: 0;
     -webkit-transition: all 0.2s;
@@ -196,12 +153,8 @@ nav span {
     top: -6px;
 }
 
-nav ul li:hover {
-    background-color: #61e3d3; 
-}
-nav ul li:hover span {
-        color: #232323;
-}
+nav ul li:hover { background-color: #61e3d3; }
+nav ul li:hover span { color: #232323; }
 /*===================================
 
 Mobile Fixed Nav
@@ -460,15 +413,6 @@ About
     color: #61e3d3;
 }
 
-/* #about hr, .project-container hr {
-    margin: 10px 0;
-    width: 183px;
-    background-color: #eaeaea;
-    border: 0 none;
-    height: 2px;
-} */
-
-
 #about h4, .project-copy h4  { 
     max-width: 600px; 
     /* font-family: 'Open Sans', sans-serif; 
@@ -477,36 +421,6 @@ About
     /* letter-spacing: 2px;
     line-height: 20px; */
 }
-
-/* .description-bg {
-        color: #292929;
-        font-family: 'LatoWebBold', sans-serif;
-}
-.about1::after {
-    content: 'maker';
-    position: absolute;
-    font-size: 6rem;
-    right: 200px;
-    top: 90px;
-    transform: rotate(34deg);
-}
-
-.about2::after {
-    content: 'learner';
-    position: absolute;
-    font-size: 5.2rem;
-    left: 15px;
-    top: 110px;
-    transform: rotate(-23deg);
-}
-
-.about3::after {
-    content: 'creator';
-    position: absolute;
-    font-size: 8rem;
-    left: 600px;
-    top: -46px;
-} */
 
 /*===================================
 
@@ -561,17 +475,6 @@ Landing Page Thumbnails
     -o-transform: scale(1);
     transform: scale(1);
 }
-/* #thumbnails.row .six.columns img {
-    opacity: .5;
-    -webkit-transition: .3s ease-in-out;
-    -moz-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-} */
 
 #thumbnails figure.tint:hover img {
      -moz-transform: scale(1.1);
@@ -581,67 +484,6 @@ Landing Page Thumbnails
     opacity: 1;
     cursor: pointer;
 }
-/* #thumbnails.row .six.columns:hover img {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    opacity: .8;
-    cursor: pointer;
-} */
-
-/* #thumbnails.row .twelve.columns h2 {
-    position: absolute;
-    top: 100px;
-    left: 30px;
-    color: #eaeaea;
-    text-transform: uppercase;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-}
-
-#thumbnails.row .twelve.columns h5 {
-    position: absolute;
-    top: 130px;
-    left: 30px;
-    color: #eaeaea;
-    max-width: 400px;
-    font-family: 'Open Sans', sans-serif; 
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-} */
-
-/* #thumbnails .twelve.columns.fadein a figure.tint { 
-    margin: 0 0 20px 0; 
-    float: left; 
-    background: #000;
-    overflow: hidden;
-} */
-
-/* #thumbnails figurecaption h2 span { color: #61e3d3; font-family: 'LatoWebMedium', sans-serif; } */
-/* #thumbnails.row .twelve.columns img {
-    -webkit-transition: .3s ease-in-out;
-    -moz-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-} */
-
-/* #thumbnails.row .twelve.columns:hover img {
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
-    opacity: .3;
-    cursor: pointer;
-} */
 
 /*===================================
 
@@ -675,15 +517,6 @@ Project container
 .company { text-transform: uppercase; margin-bottom: 20px; }
 .company h3 { margin-bottom: 5px; font-family: 'LatoWebLight', sans-serif;}
 .company h3 span { font-family: 'LatoWebMedium', sans-serif; color: #61e3d3;}
-/*--Work
-==============================================================================================*/
-/* .work-img   {
-    position: relative;
-    margin: 0 auto;
-    display: table;
-    padding-top: 50px;
-}
-.work-img img { height: 135px; } */
 
 /*--Work section Globals
 ==============================================================================================*/
@@ -694,7 +527,6 @@ Project container
     text-align: center;
     font-family: 'LatoWebBlack', sans-serif;
     font-size: 2.5em;
-    /* margin-bottom: 65px; */
 }
 .youtube-responsive {
     overflow:hidden;
@@ -757,10 +589,6 @@ Project container
 .header-copy h4, .video-description h4 {
     padding: 15px 0;
     text-align: center;
-    /* color: #262626;
-    text-align: left;
-    line-height: 22px;
-    font-family: 'Open-Sans-Regular', sans-serif; */
 }
 
 /*--Site Link
@@ -797,15 +625,6 @@ Project container
     display: table;
 }
 
-/* .single-info a {
-    margin: 10px auto;
-    display: table;
-    color: #f3f3f3;
-    padding: 15px 50px;
-    white-space: nowrap;
-    background: #8e8e8e;
-} */
-
 .single-info h4 {
     color: #232323;
     text-align: left;
@@ -830,18 +649,10 @@ Project container
 
 /*--Files associated with project
 ==============================================================================================*/
-.left-content, .right-content  { min-height: 405px; position: relative; } 
+.left-content, .right-content  { min-height: 315px; position: relative; } 
 .ripple-section { background-color: #000;}
-/* .left-img { position: absolute; left: -170px; } */
 .left-info { max-width: 600px; text-align: right; z-index: 1; }
-/* .left-info a {
-    margin: 10px auto;
-    display: table;
-    color: #f3f3f3;
-    padding: 15px 50px;
-    white-space: nowrap;
-    background: #8e8e8e;
-} */
+
 .left-info h4 {
     display: flex;
     justify-content: center;
@@ -861,60 +672,11 @@ Project container
     right: -152px;
     top: 10px;
 }
-/* .right-info a {
-    margin: 10px auto;
-    display: table;
-    color: #f3f3f3;
-    padding: 15px 50px;
-    white-space: nowrap;
-    background: #8e8e8e;
-} */
-
-.right-info h4 {
-    /* color: #232323;
-    text-align: left;
-    font-family: 'Open-Sans-Regular', sans-serif;
-    line-height: 22px; */
-}
-/* .right-info img {
-    height: 75px;
-    margin: 40px auto 10px auto;
-    display: table;
-} */
 
 /*--IBM Digital activation globals
 ==============================================================================================*/
 .project-files h3 span { color: #61e3d3; }
 
-/*===================================
-
-LS Origami Page
-
-===================================
-#origami-landing {
-    position: relative;
-    background: url('../img/backgrounds/origami.jpg') left center no-repeat;
-    min-height: 600px;
-    height: 50%;
-    width: 100%;
-    background-color: #262626;
-}
-
-#origami-landing:before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: "";
-    box-shadow: 0px 0px 220px black inset;
-    pointer-events:none;
-    z-index:1;
-}
-
-.origami-right-img {
-    position: absolute;
-    right: -235px;
-    top: -23px;
-}*/
 
 /*===================================
 
@@ -937,10 +699,14 @@ IBM 2020 Activations Page
     pointer-events:none;
     z-index:1;
 }
-.quantum-section {
-    background: url('../img/projects/IBMactivations/backgrounds/quantum-machine.jpg') right center no-repeat;
+.section-one {
+    background: url('../img/projects/IBMactivations/backgrounds/section-one-dust.jpg') right center no-repeat;
     background-color: #000;
-    min-height: 500px;;
+    min-height: 500px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .computer-in-front {z-index: 1;}
@@ -954,19 +720,36 @@ IBM 2020 Activations Page
   color: #f3f3f3;
 }
 
-/* .activation-link { background-color: #eaeaea; } */
-/* .ibm-more-projects { background-color: #f3f3f3; } */
 
+/*--Ripple Effect
+==============================================================================================*/
 .right-content.ripple-section::before {
   content: "";
-    background: url(../img/projects/IBMactivations/backgrounds/ripple-fixed-bg.jpg) right center no-repeat;
+    background: url('../img/projects/IBMactivations/backgrounds/section-two-bg.jpg') right center no-repeat; 
     opacity: 1;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+#progress-bar-copy h4 { margin: 0 0 0 20px; }
+.padding-bottom-adjustment { padding-bottom: 0 !important; }
+.gif-container ul { padding: 50px 0 50px 0; }
+.gif-row { padding: 0 !important; }
+.gif-row img { 
+    width: 300px;
+    margin: 10px auto;
+    display: block;
+ }
+
+
+ 
 
 /*===================================
 
@@ -996,8 +779,13 @@ Chingon Pong Page
     bottom: 7px;
     color: #eaeaea;
 }
-.chingon.left-img { position: absolute; top: -310px; left: -218px; }
-
+/* .chingon.left-img { position: absolute; top: -310px; left: -218px; } */
+#chingon-machine {
+    position: absolute;
+    left: -200px;
+    top: -150px;
+    max-height: none;
+}
 /*===================================
 
 Visceral Velocity Page
@@ -1022,7 +810,12 @@ Visceral Velocity Page
     z-index:1;
 }
 #vr-platform { max-width: 1000px; right: -383px; position: absolute} 
-.haptics.left-img { top: -50px; position: absolute; }
+#haptics { 
+    left: -300px;
+    position: absolute;
+    min-width: 615px;
+    max-height: none;
+}
 /*===================================
 
 LC 500 Soundbooth Page
@@ -1053,6 +846,11 @@ img.soundbooth-right-img {
     /* top: -110px; */
     max-width: none;
 }
+#soundwave {
+    left: -400px;
+    position: absolute;
+    min-width: 800px;
+}
 /*===================================
 
 Lit IS 
@@ -1076,6 +874,11 @@ Lit IS
     z-index:1;
 }
 
+#lit-is-model {
+    left: -400px;
+    position: absolute;
+    min-width: 900px;
+}
 /*===================================
 
 The Huddles Page
@@ -1161,10 +964,10 @@ paperproto
 }
 
 #paperproto-8 {
-    left: -19px;
+    left: -85px;
     height: 535px;
     transform: rotate(-5deg);
-    top: -62px;
+    /* top: -62px; */
     position: absolute;
 }
 /*===================================
@@ -1197,6 +1000,11 @@ Dustin's Words
         background-size: cover;
 }
 
+#dustins-words-model {
+    left: -400px;
+    position: absolute;
+    min-width: 900px;
+}
 /*========================
 
 Footer
@@ -1285,10 +1093,12 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     #LC_soundbooth-landing  { background: url('../img/projects/LC_soundbooth/backgrounds/LC-soundbooth-big.jpg') no-repeat center center; }
     #litIS-landing  { background: url('../img/projects/LitIS/backgrounds/litIS-big.jpg') no-repeat center center; }
     #the-huddles-landing { background: url('../img/projects/huddles/backgrounds/huddles-langing-big.jpg') no-repeat center center; }
-    #paperproto-landing { background: url('../img/projects/paperproto/backgrounds/paperproto-bg.jpg') no-repeat center center; }
+    #paperproto-landing { background: url('../img/projects/paperproto/backgrounds/paperproto-big.jpg') no-repeat center center; }
     #dustins-words-landing  { background: url('../img/projects/dustins-words/backgrounds/dustins-words-big.jpg') no-repeat center center; }
     #activations-landing  { background: url('../img/projects/IBMactivations/backgrounds/activations-big.jpg') no-repeat center center; }
     #color { left: 19%; }
+    /* #soundwave { min-width: 900px;} */
+    /* #dustin-words-model img { left: -600px; } */
 }
 
 /* 1120 */
@@ -1309,9 +1119,10 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     /* .project-container h2, .project-container h4 { padding: 20px; } */
     /* .project-container .row, .left-info { padding: 20px; } */
     .center-activation-text { margin: 20px 0;}
-    .quantum-section { background: url('../img/projects/IBMactivations/backgrounds/quantum-machine-med.jpg') center center no-repeat; }
-    .header-copy h4 {margin-top: 20px}
-    .project-container hr { margin-left: 20px; }
+    /* .section-one { background: url('../img/projects/IBMactivations/backgrounds/quantum-machine-med.jpg') center center no-repeat; } */
+    .header-copy h4 {margin-top: 20px; }
+    .right-info h4 { padding-left: 10px; }
+    /* .project-container hr { margin-left: 20px; } */
 }
 
 /* 850 */
@@ -1331,8 +1142,9 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     /* #push-nav { right: -270px; } */
     /* .cbp-spmenu-right { right: -350px; } */
         /* #top-space { display: none; } */
-    .cbp-spmenu-vertical { width: 100%; }
-    .cbp-spmenu-right { right: -375px; }
+    /* .cbp-spmenu-vertical { width: 100%; } */
+    /* .cbp-spmenu-right { right: -375px; } */
+    #close-button { display: none;}
     #mobile-nav {
         position: fixed;
         height: 55px;
@@ -1353,10 +1165,14 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     #landing li:nth-child(3) { margin-left: 36px; }
     #landing li:nth-child(4) { margin-left: 53px; }
     #thumbnails.row .six.columns h2, #thumbnails.row .six.columns h5 { opacity: 1; }
-    #thumbnails.row .six.columns img { opacity: .5; }
+    #thumbnails.row .six.columns img,  #thumbnails.row .twelve.columns img { opacity: 1; }
     .gallery ul li a { float: none; margin: 0 auto; display: table }
     /* .video-description h3, .gallery h3, .project-files h3, .header-copy h4, .left-info h4 {padding: 0 20px; } */
-        .video-description h3, .gallery h3, .project-files h3, .header-copy h4, .left-info, .right-info h4  {padding: 0 20px; }
+    .video-description h3, .gallery h3, .project-files h3, .header-copy h4, .left-info, .right-info h4  {padding: 0 20px; }
+
+    .form-container { padding-top: 0;}
+    .input-wrapper { margin-bottom: 10px; }
+    .form-card { width: auto; padding: 72px 55px 100px 55px;}
 
     .single-info { margin: 0 auto 25px auto; }
     .left-img, #paperproto-8 { /*position: absolute; left: -369px; top: 20px;*/ display: none; }
@@ -1387,7 +1203,7 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
 
     #soundbooth-site-bg { background: url('../img/projects/LC_soundbooth/backgrounds/sound-waveMobile.jpg') fixed center no-repeat; }
     footer ul li { display: -webkit-inline-box; margin: 5px; font-size: 14px; }
-    .center-activation-text h4 { height: auto; }
+    /* .center-activation-text h4 { height: auto; } */
     .visit-experience a, .more-projects-doubled a,  .more-projects-single a, .more-projects-ibm-link a { padding: 15px 60px;   width: 100%; text-align: center;  }
 }
 
@@ -1406,8 +1222,8 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
     #paperproto-landing { background: url('../img/projects/paperproto/backgrounds/paperprotoMobile.jpg') no-repeat center center; }
     #dustins-words-landing  { background: url('../img/projects/dustins-words/backgrounds/dustinsWordsMobile.jpg') no-repeat center center; }
     #dw-site-bg { background: url('../img/projects/dustins-words/backgrounds/dw-bgMobile.jpg') no-repeat center center; }
-    #activations-landing { background: url('../img/projects/IBMactivations/backgrounds/quantumMobile.jpg') no-repeat center center; }
-    .quantum-section { background: url('../img/projects/IBMactivations/backgrounds/quantum-machine-Mobile.jpg') center center no-repeat; }
+    #activations-landing { background: url('../img/projects/IBMactivations/backgrounds/section-one-mobile.jpg') no-repeat center center; }
+    .section-one { background: url('../img/projects/IBMactivations/backgrounds/section-one-dust-mobile.jpg') center center no-repeat; }
     #about h4, .project-container h4  { font-size: 1.2em; line-height: 28px; }
     .project-landing h1 { line-height: 45px; padding: 50px 20px 0 20px; letter-spacing: 0; }
     .project-container h2 { font-size: 2.5em; }
@@ -1417,7 +1233,7 @@ footer #footer-info p:nth-child(3)  { margin-top: -6px; }
 /* 450px */
 @media only screen and (max-width: 28.125em) {
     .cbp-spmenu-right { top: 0; }
-    .cbp-spmenu-right.cbp-spmenu-open { top: 0; }
+    .cbp-spmenu-right.cbp-spmenu-open { top: 0; width: 100%; }
     #mobile-nav { bottom: 0; }
     .bg-logo    { position: absolute;
                 z-index: 0;
